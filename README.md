@@ -1,6 +1,6 @@
-###QMA server
+#QMA server
 Simple game server with php without socket programming. Uses the Api request post(json).
-###What does this code do?
+#What does this code do?
 1. Register the user as a guest registration or with the desired username and password
 2. Login 1 Time
 3. Add/remove friend
@@ -11,7 +11,7 @@ Simple game server with php without socket programming. Uses the Api request pos
 8. Setting
 9. Request play
 10. User info
-###Installation SETP by STEP
+#Installation SETP by STEP
 
 1.Upload/Import database.sql (mysql)
 2.Change database/password/user in config.php
@@ -27,9 +27,9 @@ sample
 https://192.168.1.100/api
 or
 https://google.com/api
-###Disadvantages
+#Disadvantages
 I do not know why I did not use the socket for the section while playing the game
 so you can change this section with socket for faster response
-###Advantages
+#Advantages
 you can run your game server for your game with 2.5$ server with 100 online players.
 
